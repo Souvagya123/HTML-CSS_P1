@@ -1,0 +1,82 @@
+/* defining styles for application form */
+body {
+    background-image: url('IMAGES/TOYS.jpg');
+    ;
+    background-size: cover;
+}
+
+.main-div {
+    width: 300px;
+    margin: auto;
+    background: cyan;
+    color: blue;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.main-div:hover {
+    box-shadow: 0px 2px 15px yellowgreen;
+}
+
+.main-div h2 {
+    color: red;
+    text-decoration: underline green;
+}
+
+.main-div label {
+    font-size: 18px;
+}
+
+.main-div input,
+.main-div select {
+
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    color: black;
+}
+
+.main-div input:focus,
+.main-div select:focus {
+    border: 2px solid green;
+    box-shadow: 0px 0px 10px yellow;
+
+}
+
+[type="text"],
+[type="checkbox"] {
+    accent-color: navy;
+}
+
+.submit {
+    width: 180px;
+    height: 35px;
+    border: 0;
+    outline: 01;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    background: linear-gradient(to right, yellow, green, hotpink);
+    transition: 600ms;
+}
+
+.submit:hover {
+    border-radius: 15px;
+    background: linear-gradient(to right, #ff0000, #ffcc00, navy);
+}
+
+.reset button {
+    width: 180px;
+    height: 35px;
+    border: 0;
+    outline: 01;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    background: linear-gradient(to right, rgb(231, 6, 174), rgb(24, 92, 134), hotpink);
+    transition: 600ms;
+}
